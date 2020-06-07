@@ -1,0 +1,293 @@
+/*colors*/
+/*font-sizes*/
+/*font-family*/
+i {
+  margin-top: 3px;
+  margin-left: 2px;
+}
+
+li {
+  list-style-type: none;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+#head {
+  background-image: -webkit-gradient(linear, left top, right top, from(#437deb), color-stop(21%, #437deb), color-stop(21%, white), to(white));
+  background-image: linear-gradient(to right, #437deb 0%, #437deb 21%, white 21%, white 100%);
+  font-family: "Nunito", sans-serif;
+  display: fixed;
+  height: 82px;
+}
+
+#head .header .head {
+  margin-top: 40px;
+  margin-left: 80px;
+}
+
+#head .header .head .navs .contact a {
+  color: #464444;
+  text-decoration: none;
+}
+
+#head .header .head .navs .home {
+  color: #437deb;
+}
+
+#head .header .head .navs .home .home :hover .home.home-drop {
+  display: block;
+}
+
+#head .header .head .navs .home .home-drop {
+  top: 58px;
+  left: 37px;
+}
+
+#head .header .head .navs li {
+  font-size: 13px;
+  letter-spacing: 0.03em;
+  font-weight: 800;
+  color: #464444;
+}
+
+#head .header .head .navs .company a {
+  color: #464444;
+}
+
+#head .header .head .navs .company .home-drop {
+  top: 72px;
+  left: 203px;
+}
+
+#head .header .head .navs .services a {
+  color: #464444;
+}
+
+#head .header .head .navs .services .home-drop {
+  top: 61px;
+  right: 269px;
+}
+
+#head .header .head .navs .case-studies a {
+  color: #464444;
+}
+
+#head .header .head .navs .case-studies .home-drop {
+  top: 59%;
+  left: 56%;
+}
+
+#head .header .head .navs .blog a {
+  color: #464444;
+}
+
+#head .header .head .navs .blog .home-drop {
+  top: 50%;
+  left: 68%;
+}
+
+.search {
+  margin-left: 23px;
+  margin-top: 46px;
+  position: relative;
+}
+
+.fa-list-ul {
+  margin-left: 14px;
+}
+
+.contact1 {
+  top: 0;
+  right: -400px;
+  overflow-y: auto;
+  height: 100%;
+  background-color: white;
+}
+
+.contact1 .times {
+  color: #464444;
+  font-weight: bold;
+}
+
+.contact1 .additional h4 {
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  padding-left: 29px;
+  border-bottom: 1px dotted black;
+  padding-bottom: 17px;
+}
+
+.contact1 .additional a {
+  font-weight: bold;
+  color: black;
+}
+
+.contact1 .connect {
+  text-align: left;
+}
+
+.contact1 .connect .sosial {
+  padding-bottom: 10px;
+}
+
+.contact1 .connect h4 {
+  color: black;
+  font-weight: bold;
+  padding-left: 37px;
+  padding-top: 20px;
+  border-bottom: 1px dotted black;
+  padding-bottom: 28px;
+}
+
+.contact1 .connect .facebook {
+  font-size: 30px;
+  color: #1e55bd;
+}
+
+.contact1 .twitter {
+  font-size: 30px;
+}
+
+.contact1 .pinterest {
+  font-size: 30px;
+}
+
+.contact1 .dribbble {
+  font-size: 30px;
+}
+
+.times {
+  font-size: 23px;
+  border-bottom: 1px dotted black;
+  padding-bottom: 19px;
+}
+
+ul .email i {
+  font-size: 44px;
+}
+
+ul .email p {
+  font-size: 14px;
+}
+
+ul .email span {
+  font-size: 10px;
+}
+
+ul .phone i {
+  font-size: 44px;
+}
+
+ul .phone p {
+  font-size: 14px;
+}
+
+ul .phone span {
+  font-size: 10px;
+}
+
+ul .clock i {
+  font-size: 44px;
+}
+
+ul .clock p {
+  font-size: 14px;
+}
+
+ul .clock span {
+  font-size: 10px;
+}
+
+.on {
+  right: 40px;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+ul li .search-input-i {
+  top: 48px;
+  right: 19px;
+}
+
+ul li .search-input {
+  top: 40px;
+  right: 4px;
+  border-radius: 42px;
+  border-radius: 13px;
+  border: 1px solid grey;
+  padding: 5px;
+}
+
+ul li i {
+  color: #464444;
+}
+
+ul li i .fa-search {
+  margin-right: 84px;
+}
+
+/*main section 1*/
+#systems {
+  background-color: #f4f5f5;
+}
+
+#systems .system .data .data-science h6 {
+  font-size: 38px;
+  padding-top: 87px;
+  font-weight: lighter;
+  margin-bottom: 24px;
+}
+
+#systems .system .data .data-science h2 {
+  font-size: 58px;
+  font-weight: bold;
+  padding-top: 13px;
+  color: black;
+}
+
+#systems .system .data .data-science span {
+  font-size: 15px;
+  color: gray;
+  line-break: 33px;
+  line-height: 2;
+}
+
+#systems .system .data button {
+  background-image: -webkit-gradient(linear, left top, right top, from(#1e55bd), to(#437eeb));
+  background-image: linear-gradient(90deg, #1e55bd 0%, #437eeb 100%);
+  margin-top: 38px;
+  padding: 18px 46px;
+  border-radius: 33px;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*main section 2*/
+.analis .image img {
+  width: 100%;
+}
+
+.karusel .item {
+  background: #4dc7a0;
+  padding: 1rem;
+}
+
+.karusel .item h4 {
+  color: #fff;
+  font-weight: 400;
+  margin-top: 0rem;
+}
+/*# sourceMappingURL=style.css.map */
