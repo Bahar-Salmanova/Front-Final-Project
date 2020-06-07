@@ -70,8 +70,8 @@ $(".karusel")
 $(".karusel").owlCarousel({
     center: true,
     items:1,
-    loop:false,
-    margin:10,
+    loop:true,
+    margin:30,
     responsive:{
         0:{
             items:1
