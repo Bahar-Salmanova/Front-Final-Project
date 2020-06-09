@@ -13,171 +13,648 @@
 
 <body>
     <header>
-        <div class="fixed-top">
-            <div class="container d-flex flex-row">
-                <div class="logo col-2 mt-3">
-                    <img class="lazy" src="assets//img/logo.png" alt="logo">
-                </div>
-                <div class="bars d-md-none">
-                    <i class="fas fa-bars" aria-hidden="true"></i>
-                </div>
-                <div class="nav col-md-10 flex-column flex-row d-md-flex overlay">
-                    <nav class="navbar">
-                        <ul class="navbar-nav d-flex flex-column flex-md-row">
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    <div class="div d-flex">
-                                        <p class="text-nowrap text-center tex-md-left first">home</p>
-                                        <i class="fas fa-angle-down"></i>
+        <section id="head">
+            <div class="unfixed-top">
+                <div class="container">
+                    <div class="row header ">
+                        <div class="col-lg-2 mt-4">
+                            <div class="logo"><a href="">
+                                    <img src="assets/img/logo-light.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="head">
+                                <ul class="navs d-flex">
+                                    <li class="home ">
+                                        <a href="#" class="nav-link">
+                                            <div class="div d-flex">
+                                                <p class="text-nowrap text-center tex-md-left first position-relative">
+                                                    HOME
+                                                </p>
+                                                <i class="fas fa-angle-down"></i>
 
-                                    </div>
-                                    <ul class="home-drop position-absolute">
-                                        <li><a class="dropdown-item" href="#">Home Version One</a></li>
-                                        <li><a class="dropdown-item" href="#">Home Version Two</a></li>
-                                        <li><a class="dropdown-item" href="#">Home Version Three</a></li>
-                                    </ul>
+
+                                            </div>
+
+                                            <ul class="home-drop text-left position-absolute d-none">
+                                                <li><a class="dropdown-item" href="#">Home Version One</a></li>
+                                                <div class="dropdown-divider"></div>
+                                                <li><a class="dropdown-item" href="#">Home Version Two</a></li>
+                                                <div class="dropdown-divider"></div>
+                                                <li><a class="dropdown-item" href="#">Home Version Three</a></li>
+                                            </ul>
+                                        </a>
+
+                                    </li>
+                                    <li class="company ">
+                                        <a href="#" class="nav-link">
+                                            <div class="div d-flex">
+                                                <p class="text-nowrap text-center tex-md-left first position-relative">
+                                                    COMPANY</p>
+                                                <i class="fas fa-angle-down"></i>
+                                            </div>
+
+                                            <ul class="home-drop text-left position-absolute d-none">
+                                                <li><a class="dropdown-item" href="#">About Company</a></li>
+                                                <div class="dropdown-divider"></div>
+                                                <li><a class="dropdown-item" href="#">Meet Our Team</a></li>
+                                                <div class="dropdown-divider"></div>
+                                                <li><a class="dropdown-item" href="#">Get In Touch</a></li>
+                                            </ul>
+                                        </a>
+
+                                    </li>
+                                    <li class="services">
+                                        <a href="#" class="nav-link">
+                                            <div class="div d-flex">
+                                                <p class="text-nowrap text-center tex-md-left first position-relative">
+                                                    SERVICES</p>
+                                                <i class="fas fa-angle-down"></i>
+                                            </div>
+
+                                            <ul class="home-drop text-left position-absolute d-none">
+                                                <li><a class="dropdown-item" href="#">Services Version One</a></li>
+                                                <div class="dropdown-divider"></div>
+                                                <li><a class="dropdown-item" href="#">Services Version Two</a></li>
+                                                <div class="dropdown-divider"></div>
+                                                <li><a class="dropdown-item" href="#">Services Version Three</a></li>
+                                            </ul>
+
+                                    </li>
+                                    <li class="case-studies">
+                                        <a href="#" class="nav-link">
+                                            <div class="div d-flex">
+                                                <p class="text-nowrap text-center tex-md-left first position-relative">
+                                                    CASE
+                                                    STUDIES</p>
+                                                <i class="fas fa-angle-down"></i>
+                                            </div>
+
+                                            <ul class="home-drop text-left position-absolute d-none">
+                                                <li><a class="dropdown-item" href="#">Case Studies One</a></li>
+                                                <div class="dropdown-divider"></div>
+                                                <li><a class="dropdown-item" href="#">Case Studies Two</a></li>
+                                                <div class="dropdown-divider"></div>
+                                                <li><a class="dropdown-item" href="#">Case Studies Three</a></li>
+                                            </ul>
+                                        </a>
+                                    </li>
+
+                                    <li class="blog  ">
+                                        <a href="#" class="nav-link">
+                                            <div class="div d-flex">
+                                                <p class="text-nowrap text-center tex-md-left first position-relative">
+                                                    BLOG
+                                                </p>
+                                                <i class="fas fa-angle-down"></i>
+                                            </div>
+
+                                            <ul class="home-drop text-left position-absolute d-none">
+                                                <li><a class="dropdown-item" href="#">Blog Standart</a></li>
+                                                <div class="dropdown-divider"></div>
+                                                <li><a class="dropdown-item" href="#">Blog With Sidebar</a></li>
+                                                <div class="dropdown-divider"></div>
+                                                <li><a class="dropdown-item" href="#">Blog Grid Two Column</a></li>
+                                                <div class="dropdown-divider"></div>
+                                                <li><a class="dropdown-item" href="#">Blog Grid One Column</a></li>
+
+                                            </ul>
+
+
+
+                                    </li>
+                                    <li class="contact mt-2">
+                                        <a href="">CONTACT</a>
+
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-2 ">
+                            <div class="search ">
+                                <ul class="d-flex">
+                                    <li>
+                                        <i class="fas fa-search position-relative"></i>
+                                        <div id="search" class="d-none">
+                                            <input type="text" placeholder="search"
+                                                class="position-absolute search-input">
+                                            <i class="fas fa-search position-absolute search-input-i"></i>
+
+                                        </div>
+
+                                    </li>
+                                    <li>
+                                        <a href=""><i class="fas fa-list-ul position-relative"></i>
+                                        </a>
+                                        <a href="#" class="nav-link">
+                                            <div class="contact1 position-fixed">
+                                                <p class="text-nowrap text-center times">Contact info <i
+                                                        class="fas fa-times ml-5"></i>
+                                                </p>
+                                                <div class="sosialis">
+                                                    <ul class="home-drop text-left d-block">
+                                                        <li class="email">
+                                                            <div class="container">
+                                                                <div class="row">
+                                                                    <div class="col-lg-4"><i
+                                                                            class="far fa-envelope text-left"></i>
+                                                                    </div>
+                                                                    <div class="col-lg-8">
+                                                                        <p>EMAIL</p>
+                                                                        <span>Info@gmail.com</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </li>
+                                                        <div class="dropdown-divider"></div>
+                                                        <li class="phone">
+                                                            <div class="container">
+                                                                <div class="row">
+                                                                    <div class="col-lg-4"><i
+                                                                            class="fas fa-phone-alt"></i>
+                                                                    </div>
+                                                                    <div class="col-lg-8">
+                                                                        <p>PHONE</p>
+                                                                        <span>+1234567890</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+
+                                                        </li>
+                                                        <div class="dropdown-divider"></div>
+                                                        <li class="clock">
+                                                            <div class="container">
+                                                                <div class="row">
+                                                                    <div class="col-lg-4"><i class="far fa-clock"></i>
+                                                                    </div>
+                                                                    <div class="col-lg-8">
+                                                                        <p>OFFICE HOURS</p>
+                                                                        <span>Sat-Wed:8:00-4:00</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+
+
+                                                    </ul>
+                                                    <br>
+                                                    <div class="additional">
+                                                        <h4>Additional link</h4>
+                                                        <ul class="d-block">
+                                                            <li><a href="">About</a></li>
+                                                            <br>
+
+                                                            <li><a href="">Projects</a></li>
+                                                            <br>
+                                                            <li><a href="">Login</a></li>
+                                                            <br>
+                                                            <li><a href="">Register</a></li>
+                                                        </ul>
+
+                                                    </div>
+
+                                                    <br>
+                                                    <div class="connect">
+                                                        <h4>Connect With Us</h4>
+                                                        <ul class="sosial">
+                                                            <li class="facebook"><a href=""><i
+                                                                        class="fab fa-facebook-square"></i></a></li>
+                                                            <li class="twitter"><a href=""><i
+                                                                        class="fab fa-twitter-square"></i></a></li>
+                                                            <li class="pinterest"><a href=""><i
+                                                                        class="fab fa-pinterest-square"></i></a></li>
+                                                            <li class="dribbble"><a href=""><i
+                                                                        class="fab fa-dribbble-square"></i></a></li>
+                                                        </ul>
+
+
+                                                    </div>
+                                                </div>
+
+
+
+                                            </div>
+
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="fixed-top d-none">
+                <div class="container">
+                    <div class="row header">
+                        <div class="col-lg-2 mt-4">
+                            <div class="logo"><a href="">
+                                    <img src="assets/img/logo-light.png" alt="">
                                 </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    <p class="text-nowrap text-center tex-md-left" id="services">Xidmətlər</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    <p class="text-nowrap text-center tex-md-left" id="portfolio">Portfolio</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    <p class="text-nowrap text-center tex-md-left" id="about">Haqqımızda</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    <p class="text-nowrap text-center tex-md-left" id="team">Komanda</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    <p class="text-nowrap text-center tex-md-left" id="contact">Əlaqə</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="tel:+994 50 999 99 99" class="nav-link">
-                                    <p class="text-nowrap text-center tex-md-left last" id="contact"><i
-                                            class="fas fa-phone-alt" aria-hidden="true"></i></p>
-                                </a>
-                            </li>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="head">
+                                <ul class="navs d-flex">
+                                    <li class="home ">
+                                        <a href="#" class="nav-link">
+                                            <div class="div d-flex">
+                                                <p class="text-nowrap text-center tex-md-left first position-relative">
+                                                    HOME
+                                                </p>
+                                                <i class="fas fa-angle-down"></i>
+
+
+                                            </div>
+
+                                            <ul class="home-drop text-left position-absolute d-none">
+                                                <li><a class="dropdown-item" href="#">Home Version One</a></li>
+                                                <div class="dropdown-divider"></div>
+                                                <li><a class="dropdown-item" href="#">Home Version Two</a></li>
+                                                <div class="dropdown-divider"></div>
+                                                <li><a class="dropdown-item" href="#">Home Version Three</a></li>
+                                            </ul>
+                                        </a>
+
+                                    </li>
+                                    <li class="company ">
+                                        <a href="#" class="nav-link">
+                                            <div class="div d-flex">
+                                                <p class="text-nowrap text-center tex-md-left first position-relative">
+                                                    COMPANY</p>
+                                                <i class="fas fa-angle-down"></i>
+                                            </div>
+
+                                            <ul class="home-drop text-left position-absolute d-none">
+                                                <li><a class="dropdown-item" href="#">About Company</a></li>
+                                                <div class="dropdown-divider"></div>
+                                                <li><a class="dropdown-item" href="#">Meet Our Team</a></li>
+                                                <div class="dropdown-divider"></div>
+                                                <li><a class="dropdown-item" href="#">Get In Touch</a></li>
+                                            </ul>
+                                        </a>
+
+                                    </li>
+                                    <li class="services">
+                                        <a href="#" class="nav-link">
+                                            <div class="div d-flex">
+                                                <p class="text-nowrap text-center tex-md-left first position-relative">
+                                                    SERVICES</p>
+                                                <i class="fas fa-angle-down"></i>
+                                            </div>
+
+                                            <ul class="home-drop text-left position-absolute d-none">
+                                                <li><a class="dropdown-item" href="#">Services Version One</a></li>
+                                                <div class="dropdown-divider"></div>
+                                                <li><a class="dropdown-item" href="#">Services Version Two</a></li>
+                                                <div class="dropdown-divider"></div>
+                                                <li><a class="dropdown-item" href="#">Services Version Three</a></li>
+                                            </ul>
+
+                                    </li>
+                                    <li class="case-studies">
+                                        <a href="#" class="nav-link">
+                                            <div class="div d-flex">
+                                                <p class="text-nowrap text-center tex-md-left first position-relative">
+                                                    CASE
+                                                    STUDIES</p>
+                                                <i class="fas fa-angle-down"></i>
+                                            </div>
+
+                                            <ul class="home-drop text-left position-absolute d-none">
+                                                <li><a class="dropdown-item" href="#">Case Studies One</a></li>
+                                                <div class="dropdown-divider"></div>
+                                                <li><a class="dropdown-item" href="#">Case Studies Two</a></li>
+                                                <div class="dropdown-divider"></div>
+                                                <li><a class="dropdown-item" href="#">Case Studies Three</a></li>
+                                            </ul>
+                                        </a>
+                                    </li>
+
+                                    <li class="blog  ">
+                                        <a href="#" class="nav-link">
+                                            <div class="div d-flex">
+                                                <p class="text-nowrap text-center tex-md-left first position-relative">
+                                                    BLOG
+                                                </p>
+                                                <i class="fas fa-angle-down"></i>
+                                            </div>
+
+                                            <ul class="home-drop text-left position-absolute d-none">
+                                                <li><a class="dropdown-item" href="#">Blog Standart</a></li>
+                                                <div class="dropdown-divider"></div>
+                                                <li><a class="dropdown-item" href="#">Blog With Sidebar</a></li>
+                                                <div class="dropdown-divider"></div>
+                                                <li><a class="dropdown-item" href="#">Blog Grid Two Column</a></li>
+                                                <div class="dropdown-divider"></div>
+                                                <li><a class="dropdown-item" href="#">Blog Grid One Column</a></li>
+
+                                            </ul>
+
+
+
+                                    </li>
+                                    <li class="contact mt-2"><a href="#">
+                                            <a href="">CONTACT</a>
+
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-2 ">
+                            <div class="search ">
+                                <ul class="d-flex">
+                                    <li>
+                                        <i class="fas fa-search position-relative"></i>
+                                        <div id="search" class="d-none">
+                                            <input type="text" placeholder="search"
+                                                class="position-absolute search-input">
+                                            <i class="fas fa-search position-absolute search-input-i"></i>
+
+                                        </div>
+
+                                    </li>
+                                    <li>
+                                        <a href=""><i class="fas fa-list-ul position-relative"></i>
+                                        </a>
+                                        <a href="#" class="nav-link">
+                                            <div class="contact1 position-fixed">
+                                                <p class="text-nowrap text-center times">Contact info <i
+                                                        class="fas fa-times ml-5"></i>
+                                                </p>
+                                                <div class="sosialis">
+                                                    <ul class="home-drop text-left d-block">
+                                                        <li class="email">
+                                                            <div class="container">
+                                                                <div class="row">
+                                                                    <div class="col-lg-4"><i
+                                                                            class="far fa-envelope text-left"></i>
+                                                                    </div>
+                                                                    <div class="col-lg-8">
+                                                                        <p>EMAIL</p>
+                                                                        <span>Info@gmail.com</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </li>
+                                                        <div class="dropdown-divider"></div>
+                                                        <li class="phone">
+                                                            <div class="container">
+                                                                <div class="row">
+                                                                    <div class="col-lg-4"><i
+                                                                            class="fas fa-phone-alt"></i>
+                                                                    </div>
+                                                                    <div class="col-lg-8">
+                                                                        <p>PHONE</p>
+                                                                        <span>+1234567890</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+
+                                                        </li>
+                                                        <div class="dropdown-divider"></div>
+                                                        <li class="clock">
+                                                            <div class="container">
+                                                                <div class="row">
+                                                                    <div class="col-lg-4"><i class="far fa-clock"></i>
+                                                                    </div>
+                                                                    <div class="col-lg-8">
+                                                                        <p>OFFICE HOURS</p>
+                                                                        <span>Sat-Wed:8:00-4:00</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+
+
+                                                    </ul>
+                                                    <br>
+                                                    <div class="additional">
+                                                        <h4>Additional link</h4>
+                                                        <ul class="d-block">
+                                                            <li><a href="">About</a></li>
+                                                            <br>
+
+                                                            <li><a href="">Projects</a></li>
+                                                            <br>
+                                                            <li><a href="">Login</a></li>
+                                                            <br>
+                                                            <li><a href="">Register</a></li>
+                                                        </ul>
+
+                                                    </div>
+
+                                                    <br>
+                                                    <div class="connect">
+                                                        <h4>Connect With Us</h4>
+                                                        <ul class="sosial">
+                                                            <li class="facebook"><a href=""><i
+                                                                        class="fab fa-facebook-square"></i></a></li>
+                                                            <li class="twitter"><a href=""><i
+                                                                        class="fab fa-twitter-square"></i></a></li>
+                                                            <li class="pinterest"><a href=""><i
+                                                                        class="fab fa-pinterest-square"></i></a></li>
+                                                            <li class="dribbble"><a href=""><i
+                                                                        class="fab fa-dribbble-square"></i></a></li>
+                                                        </ul>
+
+
+                                                    </div>
+                                                </div>
+
+
+
+                                            </div>
+
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="container head-2">
+                <div class="row">
+                    <div class="col-lg-8 blog">
+                        <h2>Blog Standart</h2>
+
+                        <ul class="bread">
+                            <li class="item"><i class="fas fa-home"></i> HOME</li> <br>
+                            <li class="item"><i class="far fa-dot-circle"></i> BLOG</li> <br>
+                            <li class="item">
+                                <i class="far fa-dot-circle"></i>
+                                <a href="">STANDART</a> </li>
                         </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- <header>
-        <section id="navs">
-            <div class="navbar">
-                <div class="col-lg-3 head-image"><a href=""><img src="assets/img/logo.png" alt=""></a></div>
-                <div class="col-lg-6 head-navs">
-                    <ul class="lists d-flex">
 
-                        <li class="HOME">HOME <i class="fas fa-angle-down"></i>
-                            <div class="home-drop">
-                                <a class="dropdown-item" href="#">Home Version One</a>
-                                <a class="dropdown-item" href="#">Home Version Two</a>
-                                <a class="dropdown-item" href="#">Home Version Three</a>
-                            </div>
-
-
-                        </li>
-                        <li class="COMPANY">COMPANY <i class="fas fa-angle-down"></i>
-                            <div class="company-drop ">
-                                <a class="dropdown-item" href="#">About Company</a>
-                                <a class="dropdown-item" href="#">Meet Our Team</a>
-                                <a class="dropdown-item" href="#">Get In Touch</a>
-                                <a class="dropdown-item" href="#">Error page</a>
-
-                            </div>
-
-
-                        </li>
-                        <li class="SERVICES">SERVICES <i class="fas fa-angle-down"></i>
-                            <div class="services-drop ">
-                                <a class="dropdown-item" href="#">About Company</a>
-                                <a class="dropdown-item" href="#">Meet Our Team</a>
-                                <a class="dropdown-item" href="#">Get In Touch</a>
-                                <a class="dropdown-item" href="#">Error page</a>
-
-                            </div>
-
-
-                        </li>
-                        <li class="CASE-STUDIES"> CASE-STUDIES <i class="fas fa-angle-down"></i>
-                            <div class="case-studies-drop ">
-                                <a class="dropdown-item" href="#">About Company</a>
-                                <a class="dropdown-item" href="#">Meet Our Team</a>
-                                <a class="dropdown-item" href="#">Get In Touch</a>
-                                <a class="dropdown-item" href="#">Error page</a>
-
-                            </div>
-
-                        </li>
-                        <li class="BLOG">BLOG <i class="fas fa-angle-down"></i>
-                            <div class="BLOG-drop d-none">
-                                <a class="dropdown-item" href="#">About Company</a>
-                                <a class="dropdown-item" href="#">Meet Our Team</a>
-                                <a class="dropdown-item" href="#">Get In Touch</a>
-                                <a class="dropdown-item" href="#">Error page</a>
-
-                            </div>
-
-
-                        </li>
-                        <li class="CONTACT"><a href="">CONTACT</a>
-
-                        </li>
-                    </ul>
+                    </div>
                 </div>
 
 
-
-
-
-
-
-
-                <div class="col-lg-3"></div>
-
-
-
-
-
-
-
-
             </div>
-
-
-
-
-
-
-
-
-
         </section>
-
-
-
-
-
-
-
-        <section id="blog-standart"></section>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+        <section id="card1">
+            <div class="container">
+                <div class="row cardimage">
+                    <div class="col-lg-10">
+                        <div class="card">
+                            <img class="card-img-top position-relative" src="assets/img/11.jpg" alt="Card image cap">
+                            <div class="carddate position-absolute">18 JULY <br>
+                                <strong>2020</strong>
+                            </div>
+                            <div class="card-body">
+                                <i class="fas fa-folder-open"></i>
+                                <span>PROCESS STORE</span>
+                                <h5 class="card-title">Discovery incommode earnestly no he commanded</h5>
+                                <p class="card-text">Sitting mistake towards his few country ask. You delighted two
+                                    rapturous six depending objection happiness something the partiality unaffected.
+                                    Incommode so intention defective at convinced. Led income months itself and houses
+                                    you.</p>
+                                <div class="button"><a href="#"><i class="fas fa-angle-right"></i>Read More</a>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top position-relative" src="assets/img/22.jpg" alt="Card image cap">
+                            <div class="carddate position-absolute">18 JULY <br>
+                                <strong>2020</strong>
+                            </div>
+                            <div class="card-body">
+                                <span><i class="fas fa-folder-open"> </i>DATA ANALYSIS</span>
+                                <h5 class="card-title">Lasted am so before on esteem vanity oh.</h5>
+                                <p class="card-text">Sitting mistake towards his few country ask. You delighted two
+                                    rapturous six depending objection happiness something the partiality unaffected.
+                                    Incommode so intention defective at convinced. Led income months itself and houses
+                                    you</p>
+                                <div class="button"><a href="#"><i class="fas fa-angle-right"></i>Read More</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img class="card-img-top position-relative" src="assets/img/33.jpg"
+                                    alt="Card image cap">
+                                <div class="carddate position-absolute">18 JULY <br>
+                                    <strong>2020</strong>
+                                </div>
+                                <div class="card-body">
+                                    <span><i class="fas fa-folder-open"> </i>ARTIFICIAL DATA</span>
+                                    <h5 class="card-title">Repeated of endeavor mr position kindness.</h5>
+                                    <p class="card-text">Sitting mistake towards his few country ask. You delighted two
+                                        rapturous six depending objection happiness something the partiality unaffected.
+                                        Incommode so intention defective at convinced. Led income months itself and
+                                        houses you</p>
+
+                                    <div class="button"><a href="#"><i class="fas fa-angle-right"></i>Read More</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+        </section>
+        <section id="next-prev">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="letters ">
+                        <nav aria-label="Page navigation">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link " href="#" aria-label="Previous">
+                                        <span aria-hidden="true"><i class="fas fa-angle-double-left"></i></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                </li>
+                                <li class="page-item active "><a class="page-link" href="#">1</a></li>
+                                <li class="page-item "><a class="page-link" href="#">2</a></li>
+                                <li class="page-item "><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true"><i class="fas fa-angle-double-right"></i></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section id="footer" class="bg-dark text-light">
+            <div class="container">
+                <div class="row last">
+                    <div class="col-lg-4 anada">
+
+                        <div class="image">
+                            <img src="assets/img/logo-light (1).png" alt="">
+                        </div>
+                        <p>Required honoured trifling eat pleasure man relation. Assurance yet bed was improving
+                            furniture man. Distrusts delighted</p>
+
+                    </div>
+                    <div class="col-lg-2 useful-link">
+
+                        <h4>Useful Link</h4>
+                        <ul>
+                            <li><a href="">Classic Business</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Project</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="col-lg-2 services">
+
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="">Marketing & Sales</a></li>
+                            <li><a href="">Manufacturing</a></li>
+                            <li><a href="">Supply Chain</a></li>
+                            <li><a href="">Data Visualization</a></li>
+                            <li><a href="">Big Data</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="col-lg-4 info">
+                        <h4>Contact Info</h4>
+                        <p>Possible offering at contempt mr distance stronger an. Attachment excellence announcing</p>
+                        <div class="adres">
+                            <ul>
+                                <li><strong>Email: </strong>support@validtheme.com</li>
+                                <li><strong>Contact: </strong>+44-20-7328-4499</li>
+                            </ul>
+                        </div>
+                        <ul class="sosial">
+                            <li class="facebook"><a href=""><i class="fab fa-facebook"></i></a></li>
+                            <li class="twitter"><a href=""><i class="fab fa-twitter"></i></a></li>
+                            <li class="instagram"><a href=""><i class="fab fa-instagram"></i></a></li>
+                            <li class="youtube"><a href=""><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row"></div>
+        </section>
+    </footer>
 
 
 
@@ -186,9 +663,6 @@
 
 
 
-
-
- -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>

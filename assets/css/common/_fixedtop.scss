@@ -1,0 +1,53 @@
+.fixed-top{
+    background-image: linear-gradient(to right,rgba(67,125,235,1) 0%,rgba(67,125,235,1) 21%,white 21%,white 100%);
+    font-family: $primary-font;
+    display: fixed;
+    height: 82px;
+
+
+
+    .header{
+        
+        .home{
+            p,i{color: rgba(67,125,235,1);
+
+
+            } }
+        .company{
+            p,i{color: rgba(67,125,235,1);
+
+
+            }
+        }
+        .services{
+            p,i{color: rgba(67,125,235,1);
+
+
+        }
+
+        }
+        .case-studies{
+            p,i{color: rgba(67,125,235,1)
+}
+
+        }
+        .blog{
+            p,i{color: rgba(67,125,235,1);
+
+
+            }
+
+        }
+        .contact{
+            a{color: rgba(67,125,235,1);
+
+            }
+
+        }
+    }
+    .search{
+        i{
+            color: rgba(67,125,235,1);
+        }
+    }
+}

@@ -1,4 +1,4 @@
-$(document).ready(function(){
+  $(document).ready(function(){
 
 /*home mousemove olunanda*/
 $(".home").on("mouseover",function(){
@@ -65,7 +65,6 @@ $(".contact1 .fa-times").click(function(){
     $(".contact1").addClass("d-none")
 })
 /*owl karusel*/
-$(".karusel")
 
 $(".karusel").owlCarousel({
     center: true,
@@ -85,6 +84,8 @@ $(".karusel").owlCarousel({
     }
 })
 
+  //-- Executing
+    $('.timer').countTo();
 
 
 
