@@ -768,7 +768,321 @@ li{
                       background-image: $background-image;}
                       .item:hover h4,a,p{
                           color: white; }}
-                          
+  /*section 6 how-we-work*/
+  #how-we-work{background-color: #f6f6ff;
+    padding-bottom: 88px;
+            
+        .wework{
+            margin-top: 58px;
+            h4{text-align: center;
+                text-transform: uppercase;
+                font-weight: 800;
+                color: #437eeb;
+                font-size: 20px;}
+               
+              h2{text-align: center;}
+          .work{
+              
+              .icons{
+                  .icon{
+                      i{border: 1px solid #fff8f8;
+                        padding: 37px;
+                        border-radius: 50%;
+                        text-align: center;
+                        background-image: $background-image;
+                        font-size: 50px;
+                        color: rgb(246, 246, 255);
+                        margin-bottom: 125px;
+                        margin-left: 107px;
+                        margin-top: 57px;
+                        position: relative;}
+                        
+                        
+                        span{background: #ffffff;
+                            position: absolute;
+                            text-align: center;
+                            top: 12%;
+                            left: 58%;
+                            
+                            height: 35px;
+                            line-height: 35px;
+                            width: 35px;
+                            z-index: 1;
+                            color: #437eeb;
+                            font-weight: 800;
+                            font-size: 14px;
+                            border-radius: 50%;
+                            box-shadow: 0 0 10px #cccccc;
+                        }
+                            
+    }
+                        }
+                    
+                  }
+                  .icon-info{
+                      h5{font-size: 25px;
+                        font-family: Nunito,sans-serif;
+                        font-weight: 700;
+                        text-align: center;
+                        margin-bottom: 17px;   }
+                      p{color: #666666;
+                        line-height: 28px;
+                        margin: 0 0 15px;
+                        text-transform: none;
+                        font-weight: 400;
+                        text-align: center;
+                    }
+                  }
+                     
+
+
+
+
+
+
+
+
+
+
+
+
+        } 
+              
+          }
+/*section 7 our skil**/
+#our-skill{
+    .skil{margin-top: 107px;
+        .skil-info{
+            h2{display: block;
+                font-weight: 700;}
+            h3{margin-bottom: 30px;
+                font-weight: 600;
+                color: #666666;
+                margin-top: 36px;
+            }}
+            p{color: #666666;
+                line-height: 28px;
+                margin: 0 0 15px;
+                text-transform: none;
+                font-weight: 400;
+                margin-bottom: 52px;
+            }
+            .skil-item{
+                .progres-box{
+                    h5{font-size: 14px;
+                        text-transform: uppercase;
+                        font-weight: 800;
+                        margin-bottom: 20px;
+                        text-align: left;}
+                    span{}
+                    .progress{
+                        height: 6px;
+                        border-radius: 4px;
+                        color: rgba(30,85,189,1);
+                        
+                        .progress-bar{}
+                    }
+                }
+            }
+        }
+        .image-box{
+            .peoples{width: 79%;
+                     opacity: 0.8;
+                     border: 10px solid #ffffff;
+                     box-shadow: 0 0 10px #cccccc;}
+            .people{top: 53%;
+                    width: 63%;
+                    left: 61%;
+                    border: 10px solid #ffffff;
+                    box-shadow: 0 0 10px #cccccc;
+                   }
+        }
+    }
+
+/*section-8 people-say*/ 
+#people-say{margin-top: 183px;
+            text-align: center;
+            margin-left: 269px;
+    .say{
+      .say-head{
+          h5{text-transform: uppercase;
+            font-weight: 800;
+            color: #437eeb;
+            font-size: 20px;
+            
+            z-index: 1;
+            display: inline-block;}
+          h2{display: block;
+            font-weight: 700;
+            
+            margin-bottom: 0;
+            font-size: 36px;
+            margin-bottom: 100px;
+        }
+
+      }
+      .slide{
+        .carousel-indicators{
+            li{
+
+            }
+        }
+        .carousel-inner{
+            .carousel-item{
+                i{background: #edf5ff none repeat scroll 0 0;
+                    
+                    border-radius: 50%;
+                    
+                    height: 70px;
+                    line-height: 70px;
+                    margin: auto auto 30px;
+                   
+                    text-align: center;
+                    width: 70px;
+                    display: inline-block;
+                    color: #437eeb;
+                    font-size: 25px;
+                    position: relative;
+                }
+                i::after{
+                    position: absolute;
+                    
+                    content: "";
+                    border-left: 10px solid transparent;
+                    border-right: 10px solid transparent;
+                    border-top: 10px solid #edf5ff;
+                    margin-left: -10px;
+                    top: 68px;
+                    left: 37px;
+                }
+
+                }
+                p{}
+            }
+        }
+        .carousel-control-prev,.carousel-control-next,.carousel-control-next2{
+            span{
+                img{height: auto;
+                    width: 100px;
+                    border: 1px solid black;
+                    border-radius: 50%;
+                    margin-top: 58px;}
+            }
+        }
+      }
+    }
+/*section 8 update*/
+#stay-update{margin-top: 155px;
+    background-color: $background-color2;
+
+    .update{
+        .update-title{
+            h2{
+                font-weight: 700;               
+                font-size: 36px;
+                color: #232323;   
+                line-height: 1.2;
+                font-family: 'Nunito', sans-serif;
+                letter-spacing: 0;
+                line-height: 1.5;
+            }}
+            p{color: #666666;
+                line-height: 28px;
+                margin: 0 0 15px;
+                text-transform: none;
+                font-weight: 400;
+                margin-top: 9px;
+                margin-left: 32px;
+                margin-bottom: 56px;
+            }
+            .btn-update{ margin-left: 31px;
+                a{border: 1px solid #e7e7e7;
+                    color: white;
+                    padding: 16px 35px;
+                    border-radius: 33px;
+                    margin-bottom: 9px;
+                    margin: auto;
+                    margin-top: 10px;
+                    margin-left: 10px;
+                    text-decoration: none;
+                    font-weight: 600;
+                    width: 70%;
+                    background-image: $background-image;
+                    span{
+                        margin-left: 8px;
+                        border: 1px dotted white;
+                        padding: 3px 6px;
+                        border-radius: 50%;
+                        font-weight: bold;
+                        font-size: 18px;
+                    }
+                    
+
+            } 
+            }
+        }
+        .updates{margin-top: 64px;
+            .card-update{margin-bottom: 44px;
+                img{border-radius: 14px 14px 0 0;}
+                .carddate{border: 1px solid white;
+                    width: 25%;
+                    height: 18%;
+                    background: white;
+                    text-align: center;
+                    padding: 14px;
+                    box-shadow: 0 0 10px #cccccc;
+                    border-radius: 5px;
+                    top: 35%;
+                    left: 11%;
+                    
+                }
+                .card-body-update{margin-top: 54px;
+                    margin-left: 25px;}
+
+                    i{color:#437eeb;}
+                    span{display: inline-block;
+                        font-weight: 700;
+                        color: #666666;
+                        font-size: 1rem;
+                        padding-bottom: 22px;
+                    }
+                    h5{font-size: 25px;
+                        margin-bottom: 41px;
+                    }
+                    .btn-update{
+                        border: 1px solid #e7e7e7;
+                            color: #437eeb;
+                            padding: 16px 35px;
+                            border-radius: 33px;
+                            margin-bottom: 9px;
+                            margin: auto;
+                            margin-top: 10px;
+                            margin-left: 10px;
+                            text-decoration: none;
+                            font-weight: 600;
+                            width: 60%;}
+                            .btn-update:hover{
+                                background-image: $background-image;
+                            }.btn-update:hover a{
+                                text-decoration: none;
+                                color: white;
+                            }.btn-update:hover i{
+                                color: white;
+                            }
+
+                    
+                        
+                    }
+                }
+
+
+                
+            }
+        
+    
+
+      
+                         
 
                       
                   

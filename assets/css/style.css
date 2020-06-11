@@ -775,6 +775,324 @@ ul li i .fa-search {
   color: white;
 }
 
+/*section 6 how-we-work*/
+#how-we-work {
+  background-color: #f6f6ff;
+  padding-bottom: 88px;
+}
+
+#how-we-work .wework {
+  margin-top: 58px;
+}
+
+#how-we-work .wework h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #437eeb;
+  font-size: 20px;
+}
+
+#how-we-work .wework h2 {
+  text-align: center;
+}
+
+#how-we-work .wework .work .icons .icon i {
+  border: 1px solid #fff8f8;
+  padding: 37px;
+  border-radius: 50%;
+  text-align: center;
+  background-image: -webkit-gradient(linear, left top, right top, from(#1e55bd), to(#437eeb));
+  background-image: linear-gradient(90deg, #1e55bd 0%, #437eeb 100%);
+  font-size: 50px;
+  color: #f6f6ff;
+  margin-bottom: 125px;
+  margin-left: 107px;
+  margin-top: 57px;
+  position: relative;
+}
+
+#how-we-work .wework .work .icons .icon span {
+  background: #ffffff;
+  position: absolute;
+  text-align: center;
+  top: 12%;
+  left: 58%;
+  height: 35px;
+  line-height: 35px;
+  width: 35px;
+  z-index: 1;
+  color: #437eeb;
+  font-weight: 800;
+  font-size: 14px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 10px #cccccc;
+          box-shadow: 0 0 10px #cccccc;
+}
+
+#how-we-work .wework .icon-info h5 {
+  font-size: 25px;
+  font-family: Nunito,sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 17px;
+}
+
+#how-we-work .wework .icon-info p {
+  color: #666666;
+  line-height: 28px;
+  margin: 0 0 15px;
+  text-transform: none;
+  font-weight: 400;
+  text-align: center;
+}
+
+/*section 7 our skil**/
+#our-skill .skil {
+  margin-top: 107px;
+}
+
+#our-skill .skil .skil-info h2 {
+  display: block;
+  font-weight: 700;
+}
+
+#our-skill .skil .skil-info h3 {
+  margin-bottom: 30px;
+  font-weight: 600;
+  color: #666666;
+  margin-top: 36px;
+}
+
+#our-skill .skil p {
+  color: #666666;
+  line-height: 28px;
+  margin: 0 0 15px;
+  text-transform: none;
+  font-weight: 400;
+  margin-bottom: 52px;
+}
+
+#our-skill .skil .skil-item .progres-box h5 {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+#our-skill .skil .skil-item .progres-box .progress {
+  height: 6px;
+  border-radius: 4px;
+  color: #1e55bd;
+}
+
+#our-skill .image-box .peoples {
+  width: 79%;
+  opacity: 0.8;
+  border: 10px solid #ffffff;
+  -webkit-box-shadow: 0 0 10px #cccccc;
+          box-shadow: 0 0 10px #cccccc;
+}
+
+#our-skill .image-box .people {
+  top: 53%;
+  width: 63%;
+  left: 61%;
+  border: 10px solid #ffffff;
+  -webkit-box-shadow: 0 0 10px #cccccc;
+          box-shadow: 0 0 10px #cccccc;
+}
+
+/*section-8 people-say*/
+#people-say {
+  margin-top: 183px;
+  text-align: center;
+  margin-left: 269px;
+}
+
+#people-say .say .say-head h5 {
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #437eeb;
+  font-size: 20px;
+  z-index: 1;
+  display: inline-block;
+}
+
+#people-say .say .say-head h2 {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0;
+  font-size: 36px;
+  margin-bottom: 100px;
+}
+
+#people-say .say .slide .carousel-inner .carousel-item i {
+  background: #edf5ff none repeat scroll 0 0;
+  border-radius: 50%;
+  height: 70px;
+  line-height: 70px;
+  margin: auto auto 30px;
+  text-align: center;
+  width: 70px;
+  display: inline-block;
+  color: #437eeb;
+  font-size: 25px;
+  position: relative;
+}
+
+#people-say .say .slide .carousel-inner .carousel-item i::after {
+  position: absolute;
+  content: "";
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #edf5ff;
+  margin-left: -10px;
+  top: 68px;
+  left: 37px;
+}
+
+#people-say .say .carousel-control-prev span img, #people-say .say .carousel-control-next span img, #people-say .say .carousel-control-next2 span img {
+  height: auto;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-top: 58px;
+}
+
+/*section 8 update*/
+#stay-update {
+  margin-top: 155px;
+  background-color: #f6f6ff;
+}
+
+#stay-update .update .update-title h2 {
+  font-weight: 700;
+  font-size: 36px;
+  color: #232323;
+  line-height: 1.2;
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+
+#stay-update .update p {
+  color: #666666;
+  line-height: 28px;
+  margin: 0 0 15px;
+  text-transform: none;
+  font-weight: 400;
+  margin-top: 9px;
+  margin-left: 32px;
+  margin-bottom: 56px;
+}
+
+#stay-update .update .btn-update {
+  margin-left: 31px;
+}
+
+#stay-update .update .btn-update a {
+  border: 1px solid #e7e7e7;
+  color: white;
+  padding: 16px 35px;
+  border-radius: 33px;
+  margin-bottom: 9px;
+  margin: auto;
+  margin-top: 10px;
+  margin-left: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  width: 70%;
+  background-image: -webkit-gradient(linear, left top, right top, from(#1e55bd), to(#437eeb));
+  background-image: linear-gradient(90deg, #1e55bd 0%, #437eeb 100%);
+}
+
+#stay-update .update .btn-update a span {
+  margin-left: 8px;
+  border: 1px dotted white;
+  padding: 3px 6px;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#stay-update .updates {
+  margin-top: 64px;
+}
+
+#stay-update .updates .card-update {
+  margin-bottom: 44px;
+}
+
+#stay-update .updates .card-update img {
+  border-radius: 14px 14px 0 0;
+}
+
+#stay-update .updates .card-update .carddate {
+  border: 1px solid white;
+  width: 25%;
+  height: 18%;
+  background: white;
+  text-align: center;
+  padding: 14px;
+  -webkit-box-shadow: 0 0 10px #cccccc;
+          box-shadow: 0 0 10px #cccccc;
+  border-radius: 5px;
+  top: 35%;
+  left: 11%;
+}
+
+#stay-update .updates .card-update .card-body-update {
+  margin-top: 54px;
+  margin-left: 25px;
+}
+
+#stay-update .updates .card-update i {
+  color: #437eeb;
+}
+
+#stay-update .updates .card-update span {
+  display: inline-block;
+  font-weight: 700;
+  color: #666666;
+  font-size: 1rem;
+  padding-bottom: 22px;
+}
+
+#stay-update .updates .card-update h5 {
+  font-size: 25px;
+  margin-bottom: 41px;
+}
+
+#stay-update .updates .card-update .btn-update {
+  border: 1px solid #e7e7e7;
+  color: #437eeb;
+  padding: 16px 35px;
+  border-radius: 33px;
+  margin-bottom: 9px;
+  margin: auto;
+  margin-top: 10px;
+  margin-left: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  width: 60%;
+}
+
+#stay-update .updates .card-update .btn-update:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(#1e55bd), to(#437eeb));
+  background-image: linear-gradient(90deg, #1e55bd 0%, #437eeb 100%);
+}
+
+#stay-update .updates .card-update .btn-update:hover a {
+  text-decoration: none;
+  color: white;
+}
+
+#stay-update .updates .card-update .btn-update:hover i {
+  color: white;
+}
+
 .button {
   border: 1px solid #e7e7e7;
   color: #437eeb;
